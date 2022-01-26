@@ -1,0 +1,78 @@
+body {
+  font-size: 20px;
+  background-color: #3FA34D;
+  font-family: 'Times New Roman', Times, serif
+}
+
+.page {
+  overflow: hidden;
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+#profilepic {
+  width: 90%;
+  margin: auto 10%;
+  border: 10px ridge #2a9134;
+  display: flex;
+  align-content: center;
+}
+
+h1 {
+  width: 100%;
+  margin: 15px auto 0px auto;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  width: 90%;
+  margin: 2% 10%;
+  padding: auto 10%;
+  text-align: center;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: #f04b51; /* Red */
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 501px) {
+  .page {
+    font-size: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 500px;
+    width: 100%;
+  }
+  
+  #profilepic {
+    width: 300px;
+    border: 10px ridge #2a9134;
+    margin: 20px 30px;
+    order: 1;
+  }
+  
+  h1 {
+    width: 66%;
+    text-align: center;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  p {
+    width: 66%;
+    margin : 10px 50px;
+    text-align: center;
+    overflow-wrap: normal;
+  }
+}
