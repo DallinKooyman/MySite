@@ -1,6 +1,6 @@
 body {
   font-size: 20px;
-  background-color: #3FA34D;
+  background-color: rgb(255, 253, 253);
   font-family: 'Times New Roman', Times, serif
 }
 
@@ -56,7 +56,7 @@ p {
   
   #profilepic {
     width: 300px;
-    border: 10px ridge #2a9134;
+    border: 10px ridge slategray;
     margin: 20px 30px;
     order: 1;
   }
