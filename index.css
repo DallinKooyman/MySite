@@ -41,17 +41,17 @@ p {
   body {
     background-color: #f04b51; /* Red */
   }
+
+  .intro-container {
+    display: none;
+  }
 }
 
 /* Desktop Styles */
 @media only screen and (min-width: 501px) {
   .page {
-    font-size: 1em;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    height: 500px;
-    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
   }
   
   #profilepic {
@@ -59,20 +59,30 @@ p {
     border: 10px ridge slategray;
     margin: 20px 30px;
     order: 1;
+    flex: 1;
   }
   
   h1 {
     width: 66%;
     text-align: center;
-    margin: 30px;
-    display: flex;
-    justify-content: center;
+    margin: 30px auto;
   }
   
   p {
-    width: 66%;
     margin : 10px 50px;
     text-align: center;
     overflow-wrap: normal;
+  }
+
+  .intro-container {
+    margin-top: 60px;
+    width: 100%;
+  }
+
+  #about-me {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    flex: 2;
   }
 }
