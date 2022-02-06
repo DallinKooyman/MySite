@@ -41,7 +41,7 @@ h1 {
   border: 10px ridge #a7a7a7;
 }
 
-#headers {
+#introduction {
   display: flex;
   flex-direction: column;
   margin-left: auto;
@@ -57,7 +57,7 @@ h1 {
   width: fit-content;
 }
 
-#about-me {
+#links {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -73,15 +73,15 @@ h1 {
 
 /* Mobile Styles */
 @media only screen and (max-width: 500px) {
-  #headers {
+  #introduction {
     margin-bottom: 0;
   }
 
-  #about-me {
+  #links {
     height: fit-content;
   }
 
-  #about-me p {
+  #links p {
     align-self: center;
     width: 90%;
     text-align: center;
@@ -131,7 +131,7 @@ h1 {
     margin: 20px 30px;
   }
   
-  #headers {
+  #introduction {
     flex-direction: column;
     margin-left: 8%;
     margin-top: 50px;
@@ -144,7 +144,7 @@ h1 {
     margin: 10px auto 0;
   }
 
-  #about-me {
+  #links {
     display: flex;
     justify-content: center;
     flex-direction: row;
