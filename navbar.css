@@ -7,11 +7,12 @@
 .navbar {
   margin: 0px 0px 20px;
   padding: 0px;
-  background-color:#137547;
+  background-color: rgb(67, 70, 73);
   width: 100%;
-  float: left;
   position: fixed;
+  top: 0;
   font-family: Georgia;
+  justify-content: flex-start;
 }
 
 .navbar a {
@@ -27,7 +28,13 @@
   background-color: #054A29;
 }
 
-.navbar:active {
+.navbar a:active {
   background-color: #3FA34d;
   text-shadow: none;
 }
+
+/* TODO
+  fix nav bar on mobile so all options take up the whole nav bar
+  remove if using a different nav bar
+
+*/

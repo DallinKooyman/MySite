@@ -1,6 +1,6 @@
 body {
   font-size: 20px;
-  background-color: #3FA34D;
+  background-color: #e9e9e9;
   font-family: 'Times New Roman', Times, serif
 }
 
@@ -14,65 +14,153 @@ body {
   justify-content: center;
 }
 
-#profilepic {
-  width: 90%;
-  margin: auto 10%;
-  border: 10px ridge #2a9134;
-  display: flex;
-  align-content: center;
+.intro-container {
+  margin-top: 60px;
+  width: 100%;
 }
 
 h1 {
   width: 100%;
   margin: 15px auto 0px auto;
+  justify-content: center;
+}
+
+#first-look {
+  width: 100%;
+}
+
+.picture-holder {
   display: flex;
   justify-content: center;
 }
 
-p {
+#profilepic {
   width: 90%;
-  margin: 2% 10%;
-  padding: auto 10%;
+  margin: 20px 10%;
+  border: 10px ridge #a7a7a7;
+}
+
+#introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: 2%;
+}
+
+#title {
+  text-align: center;
+  font-size: 30px;
+  margin: auto;
+  width: fit-content;
+}
+
+#links {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+#bio {
+  align-self: center;
+  width: 90%;
+  text-align: center;
+  margin-top: 3%;
   text-align: center;
 }
 
 /* Mobile Styles */
 @media only screen and (max-width: 500px) {
-  body {
-    background-color: #f04b51; /* Red */
+  #introduction {
+    margin-bottom: 0;
+  }
+
+  #links {
+    height: fit-content;
+  }
+
+  #links p {
+    align-self: center;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 3px;
   }
 }
+
+/* TODO */
+/* Fix 800 to 500 cause the picture is werid at those ranges*/
 
 /* Desktop Styles */
 @media only screen and (min-width: 501px) {
   .page {
-    font-size: 1em;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    height: 500px;
-    width: 100%;
-  }
-  
-  #profilepic {
-    width: 300px;
-    border: 10px ridge #2a9134;
-    margin: 20px 30px;
-    order: 1;
+    flex-direction: row;
+    justify-content: flex-start;
   }
   
   h1 {
     width: 66%;
     text-align: center;
-    margin: 30px;
+    margin: 30px auto;
+  }
+
+  #first-look {
     display: flex;
-    justify-content: center;
+    order: 1;
+  }
+
+  .picture-holder {
+    justify-content: left;
+    order: 1;
+    flex: 1;
   }
   
+  #profilepic {
+    justify-content: right;
+    width: 20em;
+    border: 10px ridge #838383;
+    margin: 20px 30px;
+  }
+  
+  #introduction {
+    margin-left: 8%;
+    margin-top: 50px;
+    flex: 1;
+  }
+
+  #title {
+    font-size: 55px;
+    margin: 10px auto 0;
+  }
+
+  #links {
+    justify-content: center;
+    flex-direction: row;
+    flex: 1;
+    order: 2;
+  }
+
   p {
-    width: 66%;
+    width: 90%;
+    padding: auto 10%;
+    text-align: center;
     margin : 10px 50px;
     text-align: center;
     overflow-wrap: normal;
   }
+
+  #bio {
+    width: 70%;
+  }
+
+  .programming-langs-link {
+    margin-top: 30px;
+    text-align: right;
+  }
+  
+  .former-projects-link {
+    margin-top: 30px;
+    text-align: left;
+  }
+
 }
