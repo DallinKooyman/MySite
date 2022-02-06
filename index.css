@@ -42,9 +42,12 @@ h1 {
 }
 
 #headers {
+  display: flex;
+  flex-direction: column;
   margin-left: auto;
   margin-top: auto;
   margin-bottom: 2%;
+  justify-content: center;
 }
 
 #title {
@@ -56,18 +59,34 @@ h1 {
 
 #about-me {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
 }
 
-p {
+#bio {
   align-self: center;
   width: 90%;
+  text-align: center;
+  margin-top: 3%;
   text-align: center;
 }
 
 /* Mobile Styles */
 @media only screen and (max-width: 500px) {
+  #headers {
+    margin-bottom: 0;
+  }
+
+  #about-me {
+    height: fit-content;
+  }
+
+  #about-me p {
+    align-self: center;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 3px;
+  }
 
 }
 
@@ -113,7 +132,8 @@ p {
   }
   
   #headers {
-    margin-left: 10%;
+    flex-direction: column;
+    margin-left: 8%;
     margin-top: 50px;
     flex: 1;
   }
@@ -121,15 +141,14 @@ p {
   #title {
     text-align: center;
     font-size: 55px;
-    margin: 10px auto 10px;
-
+    margin: 10px auto 0;
   }
 
   #about-me {
     display: flex;
-    justify-content: right;
-    flex-direction: column;
-    flex: 2;
+    justify-content: center;
+    flex-direction: row;
+    flex: 1;
     order: 2;
   }
 
@@ -141,5 +160,19 @@ p {
     text-align: center;
     overflow-wrap: normal;
   }
+
+  #bio {
+    width: 70%;
+  }
+
+  .programming-langs-link {
+    margin-top: 30px;
+    text-align: right;
+  }
   
+  .former-projects-link {
+    margin-top: 30px;
+    text-align: left;
+  }
+
 }
