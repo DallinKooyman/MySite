@@ -4,16 +4,6 @@ body {
   font-family: 'Times New Roman', Times, serif
 }
 
-.page {
-  overflow: hidden;
-  font-size: 1em;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-}
-
 .intro-container {
   margin-top: 60px;
   width: 100%;
