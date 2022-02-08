@@ -33,7 +33,6 @@ h2 {
 }
 
 .contact-info {
-
   text-align: center;
 }
 
@@ -46,7 +45,8 @@ h2 {
 }
 
 .email {
-  flex: 1
+  flex: 1;
+  margin-bottom: auto;
 }
 
 
