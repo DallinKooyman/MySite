@@ -11,6 +11,7 @@ h2 {
   margin: auto 10px 10px;
   padding-bottom: 20px;
   border-bottom: 2px double grey;
+  
 }
 
 .portfolio-group:last-of-type {
@@ -63,5 +64,18 @@ h2 {
 
 /* Desktop Styles */
 @media only screen and (min-width: 501px) {
+  .groups {
+    display: flex;
+  }
+  
+  .portfolio-group {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+  }
 
+  .portfolio-group:last-of-type {
+    
+  }
 }
