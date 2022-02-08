@@ -67,17 +67,16 @@ h2 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: stretch;
+    align-items: center;
+    height: 550px;
   }
   
   .portfolio-group {
-    width: 40%;
     border: none;
+    width: 40%;
   }
 
   .group-item {
-    height:  335px;
     margin-bottom: 50px;
   }
 }
