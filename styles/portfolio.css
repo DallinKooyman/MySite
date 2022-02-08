@@ -1,7 +1,3 @@
-h1 {
-  font-size: 1.75em;
-}
-
 h2 {
   text-align: center;
   font-size: 1.5em;
@@ -28,7 +24,9 @@ hr {
 
 /* Mobile Styles */
 @media only screen and (max-width: 500px) {
-
+  h1 {
+    font-size: 1.75em;
+  }  
 }
 
 /* Desktop Styles */

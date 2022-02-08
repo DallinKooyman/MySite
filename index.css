@@ -55,6 +55,10 @@ h1 {
 
 /* Mobile Styles */
 @media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 1.75em;
+  }
+  
   #introduction {
     margin-bottom: 0;
   }
