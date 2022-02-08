@@ -7,16 +7,7 @@ h2 {
   margin-top: 10px;
 }
 
-.portfolio-group {
-  margin: auto 10px 10px;
-  padding-bottom: 20px;
-  border-bottom: 2px double grey;
-  
-}
 
-.portfolio-group:last-of-type {
-  border-bottom: none;
-}
 
 .group-item {
   padding: 5px;
@@ -60,22 +51,34 @@ h2 {
   .intro-container {
     border-bottom: 3px double #585858;
   }
+
+  .portfolio-group {
+    margin: auto 10px 10px;
+    padding-bottom: 20px;
+    border-bottom: 2px double grey;
+  }
+  
+  .portfolio-group:last-of-type {
+    border-bottom: none;
+  }
 }
 
 /* Desktop Styles */
 @media only screen and (min-width: 501px) {
   .groups {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
   }
   
   .portfolio-group {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 40%;
     border: none;
   }
 
-  .portfolio-group:last-of-type {
-    
+  .group-item {
+    height:  335px;
+    margin-bottom: 50px;
   }
 }
