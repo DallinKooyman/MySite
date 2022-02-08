@@ -22,3 +22,7 @@ body {
   text-align: center;
   margin: 15px auto 0px auto;
 }
+
+a:link {
+  color: rgb(240, 134, 6);
+}
