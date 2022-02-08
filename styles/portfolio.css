@@ -12,6 +12,12 @@ hr {
 
 .portfolio-group {
   margin: auto 10px 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid grey;
+}
+
+.portfolio-group:last-of-type {
+  border-bottom: none;
 }
 
 .group-item {
