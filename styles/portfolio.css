@@ -1,0 +1,82 @@
+h2 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.groups {
+  margin-top: 10px;
+}
+
+.group-item {
+  padding: 5px;
+  border: 5px solid #585858;
+  background-color: #ffffff;
+}
+
+.group-item ul {
+  margin-bottom: 0;
+}
+
+.contact-holder {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.github-link {
+  width: 50%;
+}
+
+.linkedin-link {
+  width: 50%;
+}
+
+.email {
+  flex: 1;
+  margin-bottom: auto;
+}
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 1.75em;
+  } 
+
+  .intro-container {
+    border-bottom: 3px double #585858;
+  }
+
+  .portfolio-group {
+    margin: auto 10px 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px double grey;
+  }
+  
+  .portfolio-group:last-of-type {
+    border-bottom: none;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 501px) {
+  .groups {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 550px;
+  }
+  
+  .portfolio-group {
+    border: none;
+    width: 40%;
+  }
+
+  .group-item {
+    margin-bottom: 50px;
+  }
+}
