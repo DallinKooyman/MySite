@@ -35,7 +35,9 @@ footer {
   background-color: #a9aca7;
   height: auto;
   width: 100%;
-  padding-left: 2%;
+  padding-left: .5%;
+  padding-bottom: 5px;
+  font-size: small;
 }
 
 .footer-container {
