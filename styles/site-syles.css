@@ -32,9 +32,10 @@ a:visited {
 }
 
 footer {
-  background-color: #054A29;
+  background-color: #a9aca7;
   height: auto;
   width: 100%;
+  padding-left: 2%;
 }
 
 .footer-container {
