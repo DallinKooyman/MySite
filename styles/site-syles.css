@@ -31,6 +31,19 @@ a:visited {
   color: #137547;
 }
 
+footer {
+  background-color: #054A29;
+  height: auto;
+  width: 100%;
+}
+
+.footer-container {
+  height: auto;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
 @media only screen and (max-width: 500px) {
   .desktop {
     display: none;
