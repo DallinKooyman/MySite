@@ -1,11 +1,18 @@
-.page-title {
-  border-bottom: 3px double #585858;
-}
-
 img {
   width: 90%;
   margin: 20px 5%;
   border: 10px ridge rgb(114, 114, 114);
+}
+
+p {
+  text-align: center;
+  height: fit-content;
+  font-size: .95em;
+  width: 50%;
+}
+
+.page-title {
+  border-bottom: 5px solid #086d3c;
 }
 
 .info-section {
@@ -22,12 +29,6 @@ img {
   width: 50%;
 }
 
-p {
-  text-align: center;
-  height: fit-content;
-  font-size: .95em;
-  width: 50%;
-}
 
 .left-of-pic {
   padding-left: 2%;
@@ -44,4 +45,12 @@ p {
   align-items: center;
 }
 
+#discord-bot {
+  justify-content: center;
+}
 
+#discord-bot-summary {
+  width: 90%;
+  align-self: center;
+  text-align: center;
+}
