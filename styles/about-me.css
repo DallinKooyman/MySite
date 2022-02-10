@@ -17,15 +17,38 @@
   border: 10px ridge rgb(114, 114, 114);
 }
 
+p {
+  text-align: center;
+  height: fit-content;
+  font-size: .95em;
+  width: 50%;
+  padding-top: 5%;
+}
+
+.left-of-pic {
+  padding-left: 2%;
+  padding-right: 1%;
+}
+
+.right-of-pic {
+  padding-left: 1%;
+  padding-right: 2%;
+}
+
 #small-intro {
   display: flex;
-  width: 50%;
   align-items: center;
 }
 
-#small-intro p{
-  text-align: center;
-  height: fit-content;
-  padding: 5%;
-  font-size: .95em;
+#school {
+  border-top: 2px solid #086d3c;
+  display: flex;
+  background-color: #c2c2c2;
 }
+
+#byulogo {
+  width: 90%;
+  margin: 20px 5%;
+  border: 10px ridge rgb(114, 114, 114);
+}
+
