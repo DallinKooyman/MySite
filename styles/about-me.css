@@ -1,3 +1,31 @@
 .page-title {
   border-bottom: 3px double #585858;
 }
+
+#about-me-intro {
+  display: flex;
+  width: 100%;
+}
+
+.picture-holder {
+  width: 50%;
+}
+
+#profilepic {
+  width: 90%;
+  margin: 20px 5%;
+  border: 10px ridge rgb(114, 114, 114);
+}
+
+#small-intro {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+
+#small-intro p{
+  text-align: center;
+  height: fit-content;
+  padding: 5%;
+  font-size: .95em;
+}
