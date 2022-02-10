@@ -42,11 +42,7 @@ h2 {
 
 /* Mobile Styles */
 @media only screen and (max-width: 500px) {
-  h1 {
-    font-size: 1.75em;
-  } 
-
-  .intro-container {
+  .page-title {
     border-bottom: 3px double #585858;
   }
 
