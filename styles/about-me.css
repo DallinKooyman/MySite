@@ -67,3 +67,13 @@ p {
 #traveling p {
   margin-bottom: 10px;
 }
+
+
+/* Desktop Styles */
+@media only screen and (min-width: 501px) {
+
+  .picture-holder {
+    width: 25%;
+  }
+
+}
