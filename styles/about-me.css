@@ -25,10 +25,21 @@ p {
   background-color: #c2c2c2;
 }
 
+.no-picture {
+  display: flex;
+  justify-content: center;
+}
+
+.no-picture p {
+  margin: 10px auto;
+  width: 90%;
+  align-self: center;
+  text-align: center;
+}
+
 .picture-holder {
   width: 50%;
 }
-
 
 .left-of-pic {
   padding-left: 2%;
@@ -43,14 +54,4 @@ p {
 #small-intro {
   display: flex;
   align-items: center;
-}
-
-#discord-bot {
-  justify-content: center;
-}
-
-#discord-bot-summary {
-  width: 90%;
-  align-self: center;
-  text-align: center;
 }
