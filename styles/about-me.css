@@ -55,3 +55,15 @@ p {
   display: flex;
   align-items: center;
 }
+
+#traveling {
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 402px;
+  justify-content: center;
+  align-content: center;
+}
+
+#traveling p {
+  margin-bottom: 10px;
+}
