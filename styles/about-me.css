@@ -38,7 +38,7 @@ p {
 }
 
 .picture-holder {
-  width: 50%;
+  width: 100%;
 }
 
 .left-of-pic {
@@ -72,8 +72,26 @@ p {
 /* Desktop Styles */
 @media only screen and (min-width: 501px) {
 
-  .picture-holder {
-    width: 25%;
+  .info-section {
+    justify-content: center;
   }
 
+  .picture-holder {
+    flex: 1;
+  }
+
+  .double-pic-holder {
+    flex: 1;
+    display: flex;
+    width: fit-content;
+  }
+
+  .double-pic-holder .picture-holder{
+    width: 50%;
+  }
+
+  #about-me-long {
+    flex: 1.5;
+    padding: 1%;
+  }
 }
