@@ -14,13 +14,13 @@ body {
   justify-content: center;
 }
 
-.intro-container {
+.page-title {
   width: 100%;
 }
 
-.intro-container h1 {
+.page-title h1 {
   text-align: center;
-  margin: 15px auto 0px auto;
+  margin: 10px auto 0px auto;
 }
 
 a {
@@ -47,15 +47,25 @@ footer {
   bottom: 0;
 }
 
+/* Mobile Styles */
 @media only screen and (max-width: 500px) {
   .desktop {
     display: none;
   }
+
+  .page-title h1 {
+    font-size: 1.75em;
+  } 
 }
 
-
+/* Desktop Styles */
 @media only screen and (min-width: 501px) {
   .mobile {
     display: none;
   }
+
+  footer {
+    font-size: large;
+  }
+  
 }

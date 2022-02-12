@@ -1,0 +1,214 @@
+img {
+  width: 90%;
+  margin: 20px 5%;
+  border: 10px ridge #727272;
+}
+
+p {
+  text-align: center;
+  height: fit-content;
+  font-size: .95em;
+  width: 50%;
+}
+
+.page-title {
+  border-bottom: 5px solid #086d3c;
+}
+
+.info-section {
+  display: flex;
+  border-bottom: 2px solid #086d3c;
+  align-items: center;
+}
+
+.info-section:nth-of-type(2n) {
+  background-color: #c2c2c2;
+}
+
+#hobbies-title {
+  background-color: #c2c2c2;
+}
+
+.no-picture {
+  display: flex;
+  justify-content: center;
+}
+
+.no-picture p {
+  margin: 10px auto;
+  width: 95%;
+  align-self: center;
+  text-align: center;
+}
+
+.picture-holder {
+  width: 50%;
+}
+
+.left-of-pic {
+  padding-left: 2%;
+  padding-right: 1%;
+}
+
+.right-of-pic {
+  padding-left: 1%;
+  padding-right: 2%;
+}
+
+#small-intro {
+  display: flex;
+  align-items: center;
+}
+
+#traveling {
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 402px;
+  justify-content: center;
+  align-content: center;
+}
+
+#traveling p {
+  width: 50%;
+}
+
+.interest-table {
+  border-bottom: 2px solid #086d3c;
+  background-color: #c2c2c2;
+}
+
+.long-image {
+  width: 70%;
+}
+
+.travel-section {
+  background-color: #c2c2c2;
+}
+
+#snowboarding-summary {
+  margin: auto;
+  align-self: center;
+  text-align: center;
+  border-bottom: 2px solid #086d3c;
+  background-color: #e0e0e0;
+}
+
+
+@media only screen and (min-width: 501px) and (max-width: 1099px) {
+  .info-section {
+    justify-content: center;
+    background-color: #c2c2c2;
+  }
+
+  .info-section:nth-of-type(2n) {
+    background: none;
+  }
+
+  .info-section:nth-of-type(2n-1) {
+    background-color: #c2c2c2;
+  }
+
+  #interests-title {
+    padding-top: 20px;
+  }
+
+  .picture-holder {
+    flex: 1;
+  }
+
+  .multi-pic-holder {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .multi-pic-holder .picture-holder{
+    margin: 0;
+  }
+
+  .about-me-long {
+    flex: 1;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-me-long p {
+    width: 100%;
+  }
+
+  .bigger-screen {
+    display: none;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 1100px) {
+  img {
+    margin: 5% 5%;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+  }
+
+  .col {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .info-section {
+    justify-content: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+
+  .info-section:nth-of-type(2n) {
+    background: none;
+  }
+
+  .info-section:nth-of-type(2n-1) {
+    background-color: #c2c2c2;
+  }
+
+  #interests-title {
+    padding-top: 20px;
+  }
+
+  .picture-holder {
+    flex: 1;
+    width: 100%;
+  }
+
+  .multi-pic-holder {
+    margin-right: 1%;
+    flex: 1.105;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .multi-pic-holder .picture-holder{
+    margin: 0;
+  }
+
+  .about-me-long {
+    flex: 1;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-me-long p {
+    width: 100%;
+  }
+
+  .no-picture {
+    flex: 1;
+    border-left: 2px solid #086d3c;
+  }
+  
+  .smaller-screen {
+    display: none;
+  }
+}
+
