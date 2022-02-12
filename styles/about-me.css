@@ -72,13 +72,13 @@ p {
   width: 50%;
 }
 
-.col-5 {
-  align-content: center;
-}
-
 .interest-table {
   border-bottom: 2px solid #086d3c;
   background-color: #c2c2c2;
+}
+
+.long-image {
+  width: 70%;
 }
 
 @media only screen and (min-width: 501px) and (max-width: 1099px) {
