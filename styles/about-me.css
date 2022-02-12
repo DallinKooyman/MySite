@@ -147,6 +147,7 @@ p {
 
   .content-in-columns {
     display: flex;
+    flex-direction: column;
   }
 
   .no-picture {

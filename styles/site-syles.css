@@ -63,4 +63,9 @@ footer {
   .mobile {
     display: none;
   }
+
+  footer {
+    font-size: large;
+  }
+  
 }
