@@ -55,11 +55,25 @@ p {
 .resume-container {
   display: flex;
   flex-direction: column;
+  border-bottom: 3px double #066939
+}
+
+.resume-container p{
+  margin-bottom: 0;
 }
 
 #resume-embed {
   width: 100%;
   height: auto;
+}
+
+.portfolio-group {
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+.portfolio-group:last-of-type {
+  border-bottom: none;
 }
 
 /* Mobile Styles */
@@ -69,13 +83,32 @@ p {
     background-color: #e0e0e0;
   }
 
-  .portfolio-group {
-    margin: 10px;
-    padding-bottom: 10px;
+  #resume-download {
+    text-align: center;
   }
-  
-  .portfolio-group:last-of-type {
-    border-bottom: none;
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 501px) {
+  .page-title {
+    border-bottom: 10px double #066939;
+    background-color: #e0e0e0;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+  }
+
+  #desktop-holder {
+    align-self: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+
+  p {
+    width: 85%;
   }
 
   #resume-download {
