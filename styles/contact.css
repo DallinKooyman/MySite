@@ -1,0 +1,62 @@
+h2 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.group-item {
+  padding: 5px;
+  border: 5px solid #585858;
+  background-color: #ffffff;
+}
+
+.group-item ul {
+  margin-bottom: 0;
+}
+
+.contact-holder {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.github-link {
+  width: 50%;
+}
+
+.linkedin-link {
+  width: 50%;
+}
+
+.email {
+  flex: 1;
+  margin-bottom: auto;
+}
+
+#resume-embed {
+  width: 100%;
+  height: auto;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 500px) {
+  .page-title {
+    border-bottom: 3px double #585858;
+  }
+
+  .portfolio-group {
+    margin: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px double grey;
+  }
+  
+  .portfolio-group:last-of-type {
+    border-bottom: none;
+  }
+
+  #resume-download {
+    text-align: center;
+  }
+}
