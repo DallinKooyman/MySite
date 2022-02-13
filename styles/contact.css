@@ -3,6 +3,13 @@ h2 {
   font-size: 1.5em;
 }
 
+p {
+  padding-top: 5px;
+  width: 80%;
+  align-self: center;
+  text-align: center;
+}
+
 .group-item {
   padding: 5px;
   border: 5px solid #585858;
@@ -20,6 +27,7 @@ h2 {
 
 .contact-info {
   text-align: center;
+  padding: 0;
 }
 
 .github-link {
