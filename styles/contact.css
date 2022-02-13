@@ -10,6 +10,15 @@ p {
   text-align: center;
 }
 
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  border-bottom: 2px solid #066939;
+  background-color: #c2c2c2;
+}
+
 .group-item {
   padding: 5px;
   border: 5px solid #585858;
@@ -43,6 +52,11 @@ p {
   margin-bottom: auto;
 }
 
+.resume-container {
+  display: flex;
+  flex-direction: column;
+}
+
 #resume-embed {
   width: 100%;
   height: auto;
@@ -52,12 +66,12 @@ p {
 @media only screen and (max-width: 500px) {
   .page-title {
     border-bottom: 3px double #066939;
+    background-color: #e0e0e0;
   }
 
   .portfolio-group {
     margin: 10px;
     padding-bottom: 10px;
-    border-bottom: 2px double grey;
   }
   
   .portfolio-group:last-of-type {

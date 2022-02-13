@@ -49,7 +49,7 @@ h2 {
   .portfolio-group {
     margin: auto 10px 10px;
     padding-bottom: 10px;
-    border-bottom: 2px double grey;
+    border-bottom: 2px double #066939;
   }
   
   .portfolio-group:last-of-type {
