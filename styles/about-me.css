@@ -12,12 +12,12 @@ p {
 }
 
 .page-title {
-  border-bottom: 5px solid #086d3c;
+  border-bottom: 5px solid #066939;
 }
 
 .info-section {
   display: flex;
-  border-bottom: 2px solid #086d3c;
+  border-bottom: 2px solid #066939;
   align-items: center;
 }
 
@@ -73,7 +73,7 @@ p {
 }
 
 .interest-table {
-  border-bottom: 2px solid #086d3c;
+  border-bottom: 2px solid #066939;
   background-color: #c2c2c2;
 }
 
